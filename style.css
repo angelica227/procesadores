@@ -1,0 +1,80 @@
+body {
+    background-color: #c8b3c7;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #003366;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #0055a5;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    color: #004080;
+    margin-top: 30px;
+    border-bottom: 2px solid #b3c6ff;
+    padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Imágenes */
+img {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Botón */
+button {
+    display: block;
+    margin: 20px auto;
+    background-color: #0055a5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #003f7f;
+}
+
+/* Enlace */
+a {
+    color: #003399;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
